@@ -8,8 +8,10 @@ Install wiringPi on your Raspberry or wiringOP on your orangePi.
 + http://wiringpi.com/download-and-install/
 
 # Quick Test
-The following command should show you a pin table which means library works well.
-`gpio readAll
+The following command should show you a pin map which means library works well.
+```
+gpio readAll
+```
 The following command will give you a LED blinker at *pin 2* that defined in *Pi's pin map*.
 ```bash
 make blinker
